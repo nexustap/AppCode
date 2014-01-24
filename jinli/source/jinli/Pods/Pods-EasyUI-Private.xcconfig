@@ -1,0 +1,6 @@
+#include "Pods-EasyUI.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/EasyUI" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Canvas" "${PODS_ROOT}/Headers/DTCoreText" "${PODS_ROOT}/Headers/DTFoundation" "${PODS_ROOT}/Headers/EasyUI" "${PODS_ROOT}/Headers/SDWebImage"
+LIBRARY_SEARCH_PATHS = ${PODS_EASYUI_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_EASYUI_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

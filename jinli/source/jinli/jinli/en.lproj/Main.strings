@@ -1,0 +1,111 @@
+
+/* Class = "IBUILabel"; text = "标注"; ObjectID = "0AX-fL-jJU"; */
+"0AX-fL-jJU.text" = "标注";
+
+/* Class = "IBUINavigationItem"; title = "详细"; ObjectID = "37M-i5-Pnv"; */
+"37M-i5-Pnv.title" = "详细";
+
+/* Class = "IBUILabel"; text = "活动提醒"; ObjectID = "5MW-Vf-G08"; */
+"5MW-Vf-G08.text" = "活动提醒";
+
+/* Class = "IBUINavigationItem"; title = "掌上锦里"; ObjectID = "8yp-cH-f10"; */
+"8yp-cH-f10.title" = "掌上锦里";
+
+/* Class = "IBUILabel"; text = "个人信息"; ObjectID = "9pj-6b-D7f"; */
+"9pj-6b-D7f.text" = "个人信息";
+
+/* Class = "IBUITabBarItem"; title = "通讯录"; ObjectID = "ASC-gf-Mdx"; */
+"ASC-gf-Mdx.title" = "通讯录";
+
+/* Class = "IBUINavigationItem"; title = "详细"; ObjectID = "Drz-Y4-976"; */
+"Drz-Y4-976.title" = "详细";
+
+/* Class = "IBUIBarButtonItem"; title = "登录"; ObjectID = "Hd1-fr-wZ0"; */
+"Hd1-fr-wZ0.title" = "登录";
+
+/* Class = "IBUINavigationItem"; title = "掌上锦里"; ObjectID = "I7v-0g-zKL"; */
+"I7v-0g-zKL.title" = "掌上锦里";
+
+/* Class = "IBUIButton"; normalTitle = "加入活动"; ObjectID = "J5b-a0-hXe"; */
+"J5b-a0-hXe.normalTitle" = "加入活动";
+
+/* Class = "IBUIButton"; normalTitle = "详细"; ObjectID = "JaB-cX-rL9"; */
+"JaB-cX-rL9.normalTitle" = "详细";
+
+/* Class = "IBUIBarButtonItem"; title = "登录"; ObjectID = "Jgc-d6-Ihi"; */
+"Jgc-d6-Ihi.title" = "登录";
+
+/* Class = "IBUILabel"; text = "内容"; ObjectID = "NAb-K3-qmW"; */
+"NAb-K3-qmW.text" = "内容";
+
+/* Class = "IBUILabel"; text = "标题"; ObjectID = "OgD-hL-Dls"; */
+"OgD-hL-Dls.text" = "标题";
+
+/* Class = "IBUITabBarItem"; title = "活动"; ObjectID = "Q6Z-h3-HPD"; */
+"Q6Z-h3-HPD.title" = "活动";
+
+/* Class = "IBUIButton"; normalTitle = "成员"; ObjectID = "RPB-bQ-ESn"; */
+"RPB-bQ-ESn.normalTitle" = "成员";
+
+/* Class = "IBUINavigationItem"; title = "设置"; ObjectID = "Sk9-7c-hXH"; */
+"Sk9-7c-hXH.title" = "设置";
+
+/* Class = "IBUILabel"; text = "内容"; ObjectID = "UKi-Yf-64g"; */
+"UKi-Yf-64g.text" = "内容";
+
+/* Class = "IBUIBarButtonItem"; title = "返回"; ObjectID = "UmY-nd-DqB"; */
+"UmY-nd-DqB.title" = "返回";
+
+/* Class = "IBUISegmentedControl"; ZEx-B2-kly.segmentTitles[0] = "活动"; ObjectID = "ZEx-B2-kly"; */
+"ZEx-B2-kly.segmentTitles[0]" = "活动";
+
+/* Class = "IBUISegmentedControl"; ZEx-B2-kly.segmentTitles[1] = "咨询"; ObjectID = "ZEx-B2-kly"; */
+"ZEx-B2-kly.segmentTitles[1]" = "咨询";
+
+/* Class = "IBUILabel"; text = "关于我们"; ObjectID = "bcP-J3-0HC"; */
+"bcP-J3-0HC.text" = "关于我们";
+
+/* Class = "IBUITabBarItem"; title = "设置"; ObjectID = "bdT-hH-PYd"; */
+"bdT-hH-PYd.title" = "设置";
+
+/* Class = "IBUILabel"; text = "标题"; ObjectID = "cOh-ze-Jue"; */
+"cOh-ze-Jue.text" = "标题";
+
+/* Class = "IBUITabBarItem"; title = "商家"; ObjectID = "gIU-ja-twa"; */
+"gIU-ja-twa.title" = "商家";
+
+/* Class = "IBUILabel"; text = "管理活动"; ObjectID = "hSi-pA-wT5"; */
+"hSi-pA-wT5.text" = "管理活动";
+
+/* Class = "IBUILabel"; text = "标注"; ObjectID = "jkJ-Yh-NWX"; */
+"jkJ-Yh-NWX.text" = "标注";
+
+/* Class = "IBUIButton"; normalTitle = "互动"; ObjectID = "kzt-CJ-zvD"; */
+"kzt-CJ-zvD.normalTitle" = "互动";
+
+/* Class = "IBUILabel"; text = "标题"; ObjectID = "o0c-W4-h7Y"; */
+"o0c-W4-h7Y.text" = "标题";
+
+/* Class = "IBUIBarButtonItem"; title = "登录"; ObjectID = "o3a-D7-0dA"; */
+"o3a-D7-0dA.title" = "登录";
+
+/* Class = "IBUILabel"; text = "意见反馈"; ObjectID = "o3w-Rn-nvf"; */
+"o3w-Rn-nvf.text" = "意见反馈";
+
+/* Class = "IBUITabBarItem"; title = "聊天"; ObjectID = "p37-P2-gUB"; */
+"p37-P2-gUB.title" = "聊天";
+
+/* Class = "IBUINavigationItem"; title = "聊天"; ObjectID = "qCN-dr-dHc"; */
+"qCN-dr-dHc.title" = "聊天";
+
+/* Class = "IBUILabel"; text = "标题"; ObjectID = "s3Q-h3-qRB"; */
+"s3Q-h3-qRB.text" = "标题";
+
+/* Class = "IBUIButton"; normalTitle = "组织"; ObjectID = "tpu-n2-M4v"; */
+"tpu-n2-M4v.normalTitle" = "组织";
+
+/* Class = "IBUILabel"; text = "我的活动"; ObjectID = "ucW-Ag-Oyu"; */
+"ucW-Ag-Oyu.text" = "我的活动";
+
+/* Class = "IBUINavigationItem"; title = "通讯录"; ObjectID = "xvm-be-r0W"; */
+"xvm-be-r0W.title" = "通讯录";

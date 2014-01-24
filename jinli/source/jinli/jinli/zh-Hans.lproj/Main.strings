@@ -1,0 +1,27 @@
+
+/* Class = "IBUITabBarItem"; title = "通讯录"; ObjectID = "ASC-gf-Mdx"; */
+"ASC-gf-Mdx.title" = "通讯录";
+
+/* Class = "IBUILabel"; text = "聊天"; ObjectID = "JWn-MJ-Rmb"; */
+"JWn-MJ-Rmb.text" = "聊天";
+
+/* Class = "IBUITabBarItem"; title = "活动"; ObjectID = "Q6Z-h3-HPD"; */
+"Q6Z-h3-HPD.title" = "活动";
+
+/* Class = "IBUISegmentedControl"; Tsi-LF-Kd3.segmentTitles[0] = "活动"; ObjectID = "Tsi-LF-Kd3"; */
+"Tsi-LF-Kd3.segmentTitles[0]" = "活动";
+
+/* Class = "IBUISegmentedControl"; Tsi-LF-Kd3.segmentTitles[1] = "资讯"; ObjectID = "Tsi-LF-Kd3"; */
+"Tsi-LF-Kd3.segmentTitles[1]" = "资讯";
+
+/* Class = "IBUITabBarItem"; title = "设置"; ObjectID = "bdT-hH-PYd"; */
+"bdT-hH-PYd.title" = "设置";
+
+/* Class = "IBUITabBarItem"; title = "商家"; ObjectID = "gIU-ja-twa"; */
+"gIU-ja-twa.title" = "商家";
+
+/* Class = "IBUITabBarItem"; title = "聊天"; ObjectID = "p37-P2-gUB"; */
+"p37-P2-gUB.title" = "聊天";
+
+/* Class = "IBUIBarButtonItem"; title = "登录"; ObjectID = "zxb-sI-1tN"; */
+"zxb-sI-1tN.title" = "登录";

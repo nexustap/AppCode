@@ -1,0 +1,110 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking 0
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 0
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 0
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 0
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 0
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 0
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 0
+
+// Canvas
+#define COCOAPODS_POD_AVAILABLE_Canvas
+#define COCOAPODS_VERSION_MAJOR_Canvas 0
+#define COCOAPODS_VERSION_MINOR_Canvas 1
+#define COCOAPODS_VERSION_PATCH_Canvas 0
+
+// DTCoreText
+#define COCOAPODS_POD_AVAILABLE_DTCoreText
+#define COCOAPODS_VERSION_MAJOR_DTCoreText 1
+#define COCOAPODS_VERSION_MINOR_DTCoreText 6
+#define COCOAPODS_VERSION_PATCH_DTCoreText 10
+
+// DTFoundation/Core
+#define COCOAPODS_POD_AVAILABLE_DTFoundation_Core
+#define COCOAPODS_VERSION_MAJOR_DTFoundation_Core 1
+#define COCOAPODS_VERSION_MINOR_DTFoundation_Core 6
+#define COCOAPODS_VERSION_PATCH_DTFoundation_Core 1
+
+// DTFoundation/DTHTMLParser
+#define COCOAPODS_POD_AVAILABLE_DTFoundation_DTHTMLParser
+#define COCOAPODS_VERSION_MAJOR_DTFoundation_DTHTMLParser 1
+#define COCOAPODS_VERSION_MINOR_DTFoundation_DTHTMLParser 6
+#define COCOAPODS_VERSION_PATCH_DTFoundation_DTHTMLParser 1
+
+// DTFoundation/UIKit
+#define COCOAPODS_POD_AVAILABLE_DTFoundation_UIKit
+#define COCOAPODS_VERSION_MAJOR_DTFoundation_UIKit 1
+#define COCOAPODS_VERSION_MINOR_DTFoundation_UIKit 6
+#define COCOAPODS_VERSION_PATCH_DTFoundation_UIKit 1
+
+// DevelopMesser
+#define COCOAPODS_POD_AVAILABLE_DevelopMesser
+#define COCOAPODS_VERSION_MAJOR_DevelopMesser 0
+#define COCOAPODS_VERSION_MINOR_DevelopMesser 0
+#define COCOAPODS_VERSION_PATCH_DevelopMesser 1
+
+// JSMessagesViewController
+#define COCOAPODS_POD_AVAILABLE_JSMessagesViewController
+#define COCOAPODS_VERSION_MAJOR_JSMessagesViewController 3
+#define COCOAPODS_VERSION_MINOR_JSMessagesViewController 4
+#define COCOAPODS_VERSION_PATCH_JSMessagesViewController 4
+
+// JSQSystemSoundPlayer
+#define COCOAPODS_POD_AVAILABLE_JSQSystemSoundPlayer
+#define COCOAPODS_VERSION_MAJOR_JSQSystemSoundPlayer 1
+#define COCOAPODS_VERSION_MINOR_JSQSystemSoundPlayer 4
+#define COCOAPODS_VERSION_PATCH_JSQSystemSoundPlayer 0
+
+// SDWebImage
+#define COCOAPODS_POD_AVAILABLE_SDWebImage
+#define COCOAPODS_VERSION_MAJOR_SDWebImage 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage 5
+#define COCOAPODS_VERSION_PATCH_SDWebImage 2
+
+// SDWebImage/Core
+#define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
+#define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage_Core 5
+#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 2
+

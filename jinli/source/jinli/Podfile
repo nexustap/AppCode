@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.0'
+pod 'SDWebImage', '~> 3.5'
+pod 'Canvas'
+pod 'DTCoreText'
+pod 'JSMessagesViewController'
+pod 'DevelopMesser', :git => 'https://github.com/lordking/DevelopMesser.git'
+
