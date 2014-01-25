@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "537361B4A7B245DF8C2D81C6"
+               BlueprintIdentifier = "7C1CE92D45354E32BDCA221A"
                BuildableName = "libPods-DevelopMesser.a"
                BlueprintName = "Pods-DevelopMesser"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -34,18 +34,25 @@ PODS:
   - SDWebImage (3.5.2):
     - SDWebImage/Core
   - SDWebImage/Core (3.5.2)
+  - socket.IO (0.4.1):
+    - SocketRocket (~> 0.2)
+  - SocketRocket (0.3.1-beta2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - Canvas
   - DevelopMesser (from `https://github.com/lordking/DevelopMesser.git`)
   - DTCoreText
-  - JSMessagesViewController
+  - JSMessagesViewController (from `https://github.com/lordking/MessagesTableViewController.git`)
   - SDWebImage (~> 3.5)
+  - socket.IO
+  - SocketRocket
 
 EXTERNAL SOURCES:
   DevelopMesser:
     :git: https://github.com/lordking/DevelopMesser.git
+  JSMessagesViewController:
+    :git: https://github.com/lordking/MessagesTableViewController.git
 
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
@@ -56,5 +63,7 @@ SPEC CHECKSUMS:
   JSMessagesViewController: 309de7324fbf48b7da924b002ef6017d5d2ce026
   JSQSystemSoundPlayer: 28ccd01a92a0cebc6de6361e8499011b4cb6dab7
   SDWebImage: fe7ce01ae4e0a884d168f59c9dd82d35baf8429e
+  socket.IO: e0f5dc9a4dda5e41653f2032ac48217e1563176e
+  SocketRocket: 7ac946bcce46287a791dfff3c1f8daa692821dae
 
 COCOAPODS: 0.29.0

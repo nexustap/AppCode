@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3EA7F8B0-E96C-4D0A-AEB3-9A4F48A932A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jinli</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</key>
+		<string>https://github.com/nexustap/AppCode</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jinli/source/jinli/jinli.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nexustap/AppCode</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

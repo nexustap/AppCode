@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4D968A994EC04FDEB15A9488 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B6085F19EE4813A12F9A06 /* libPods.a */; };
 		E90FE2DA18878EC5007CC5EA /* zhece_bt_c.png in Resources */ = {isa = PBXBuildFile; fileRef = E90FE2D918878EC5007CC5EA /* zhece_bt_c.png */; };
+		E9192874189364A100A96F02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9192873189364A100A96F02 /* QuartzCore.framework */; };
+		E919287B1893B77600A96F02 /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E919287A1893B77600A96F02 /* ChatMessage.m */; };
 		E959839218851B0300A4ACB3 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E959839118851B0300A4ACB3 /* SignInViewController.m */; };
 		E959839518851EFE00A4ACB3 /* JSONURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E959839418851EFE00A4ACB3 /* JSONURL.m */; };
 		E95983991885274800A4ACB3 /* ShopClassViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E95983981885274800A4ACB3 /* ShopClassViewCell.m */; };
@@ -36,6 +38,7 @@
 		E96CF31F188699F500EC9A5E /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = E96CF319188699F500EC9A5E /* star2.png */; };
 		E96CF320188699F500EC9A5E /* tel.png in Resources */ = {isa = PBXBuildFile; fileRef = E96CF31A188699F500EC9A5E /* tel.png */; };
 		E96CF321188699F500EC9A5E /* xin.png in Resources */ = {isa = PBXBuildFile; fileRef = E96CF31B188699F500EC9A5E /* xin.png */; };
+		E97A1D20189271E8004E62C5 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97A1D1F189271E8004E62C5 /* ChatViewController.m */; };
 		E99C3300187EC0930065B716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99C32FF187EC0930065B716 /* Foundation.framework */; };
 		E99C3302187EC0930065B716 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99C3301187EC0930065B716 /* CoreGraphics.framework */; };
 		E99C3304187EC0930065B716 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99C3303187EC0930065B716 /* UIKit.framework */; };
@@ -106,6 +109,9 @@
 		D2DC76ECE28E41EB9E21234E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E0B6085F19EE4813A12F9A06 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90FE2D918878EC5007CC5EA /* zhece_bt_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhece_bt_c.png; sourceTree = "<group>"; };
+		E9192873189364A100A96F02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E91928791893B77600A96F02 /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		E919287A1893B77600A96F02 /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
 		E959839018851B0300A4ACB3 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		E959839118851B0300A4ACB3 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		E959839318851EFE00A4ACB3 /* JSONURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONURL.h; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 		E96CF319188699F500EC9A5E /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 		E96CF31A188699F500EC9A5E /* tel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tel.png; sourceTree = "<group>"; };
 		E96CF31B188699F500EC9A5E /* xin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xin.png; sourceTree = "<group>"; };
+		E97A1D1E189271E8004E62C5 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		E97A1D1F189271E8004E62C5 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		E99C32FC187EC0930065B716 /* jinli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C32FF187EC0930065B716 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E99C3301187EC0930065B716 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -226,6 +234,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9192874189364A100A96F02 /* QuartzCore.framework in Frameworks */,
 				E99C3302187EC0930065B716 /* CoreGraphics.framework in Frameworks */,
 				E99C3304187EC0930065B716 /* UIKit.framework in Frameworks */,
 				E99C3300187EC0930065B716 /* Foundation.framework in Frameworks */,
@@ -246,6 +255,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91928781893B72F00A96F02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E91928791893B77600A96F02 /* ChatMessage.h */,
+				E919287A1893B77600A96F02 /* ChatMessage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E959839618851FC000A4ACB3 /* Datasoruce */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +296,7 @@
 		E99C32FE187EC0930065B716 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9192873189364A100A96F02 /* QuartzCore.framework */,
 				E99C32FF187EC0930065B716 /* Foundation.framework */,
 				E99C3301187EC0930065B716 /* CoreGraphics.framework */,
 				E99C3303187EC0930065B716 /* UIKit.framework */,
@@ -290,6 +309,7 @@
 		E99C3305187EC0930065B716 /* jinli */ = {
 			isa = PBXGroup;
 			children = (
+				E91928781893B72F00A96F02 /* Model */,
 				E959839618851FC000A4ACB3 /* Datasoruce */,
 				E99C337E187EC52F0065B716 /* Views */,
 				E99C337D187EC5240065B716 /* Controllers */,
@@ -422,6 +442,8 @@
 				E9D05F811887E30000CBADB0 /* ShopDetailShowTableViewController.m */,
 				E96CBF8A1889280C00BDB8F5 /* RegisterViewController.h */,
 				E96CBF8B1889280C00BDB8F5 /* RegisterViewController.m */,
+				E97A1D1E189271E8004E62C5 /* ChatViewController.h */,
+				E97A1D1F189271E8004E62C5 /* ChatViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -630,6 +652,7 @@
 				E959839F18853B2200A4ACB3 /* ShopDetailViewController.m in Sources */,
 				E99C3371187EC4F80065B716 /* ActivitiesViewController.m in Sources */,
 				E99C337A187EC50A0065B716 /* ArticleDetailViewController.m in Sources */,
+				E919287B1893B77600A96F02 /* ChatMessage.m in Sources */,
 				E99C3310187EC0930065B716 /* AppDelegate.m in Sources */,
 				E99C3386187EC63D0065B716 /* FilterViewController.m in Sources */,
 				E9D05F821887E30000CBADB0 /* ShopDetailShowTableViewController.m in Sources */,
@@ -648,6 +671,7 @@
 				E95983A218853E3600A4ACB3 /* ActivityDetailCommonViewController.m in Sources */,
 				E9A97CBE1883CA6D008DE7F2 /* ShopsViewController.m in Sources */,
 				E99C3387187EC63D0065B716 /* NewsViewController.m in Sources */,
+				E97A1D20189271E8004E62C5 /* ChatViewController.m in Sources */,
 				E99C3372187EC4F80065B716 /* ActivityDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -779,7 +803,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jinli/jinli-Prefix.pch";
 				INFOPLIST_FILE = "jinli/jinli-Info.plist";
@@ -794,7 +818,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jinli/jinli-Prefix.pch";
 				INFOPLIST_FILE = "jinli/jinli-Info.plist";

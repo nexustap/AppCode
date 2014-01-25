@@ -108,3 +108,15 @@
 #define COCOAPODS_VERSION_MINOR_SDWebImage_Core 5
 #define COCOAPODS_VERSION_PATCH_SDWebImage_Core 2
 
+// SocketRocket
+#define COCOAPODS_POD_AVAILABLE_SocketRocket
+#define COCOAPODS_VERSION_MAJOR_SocketRocket 0
+#define COCOAPODS_VERSION_MINOR_SocketRocket 3
+#define COCOAPODS_VERSION_PATCH_SocketRocket 1
+
+// socket.IO
+#define COCOAPODS_POD_AVAILABLE_socket_IO
+#define COCOAPODS_VERSION_MAJOR_socket_IO 0
+#define COCOAPODS_VERSION_MINOR_socket_IO 4
+#define COCOAPODS_VERSION_PATCH_socket_IO 1
+
