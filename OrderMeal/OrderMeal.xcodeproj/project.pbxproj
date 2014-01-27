@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E01B3E1A18950C150040167D /* ChildMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01B3E1918950C150040167D /* ChildMenuViewController.m */; };
+		E01B3E2B18950D9C0040167D /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E1C18950D9C0040167D /* arrows.png */; };
+		E01B3E2C18950D9C0040167D /* back_d.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E1D18950D9C0040167D /* back_d.png */; };
+		E01B3E2D18950D9C0040167D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E1E18950D9C0040167D /* back.png */; };
+		E01B3E2E18950D9C0040167D /* btn_center.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E1F18950D9C0040167D /* btn_center.png */; };
+		E01B3E2F18950D9C0040167D /* btn_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2018950D9C0040167D /* btn_menu.png */; };
+		E01B3E3018950D9C0040167D /* btn_menus_manager.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2118950D9C0040167D /* btn_menus_manager.png */; };
+		E01B3E3118950D9C0040167D /* btn_order_d.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2218950D9C0040167D /* btn_order_d.png */; };
+		E01B3E3218950D9C0040167D /* btn_order_s.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2318950D9C0040167D /* btn_order_s.png */; };
+		E01B3E3318950D9C0040167D /* btn_shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2418950D9C0040167D /* btn_shopping.png */; };
+		E01B3E3418950D9C0040167D /* button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2518950D9C0040167D /* button_bg.png */; };
+		E01B3E3518950D9C0040167D /* default_headshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2618950D9C0040167D /* default_headshot.png */; };
+		E01B3E3618950D9C0040167D /* default_nopic.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2718950D9C0040167D /* default_nopic.png */; };
+		E01B3E3718950D9C0040167D /* maintop_toolbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2818950D9C0040167D /* maintop_toolbar_bg.png */; };
+		E01B3E3818950D9C0040167D /* search_d.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2918950D9C0040167D /* search_d.png */; };
+		E01B3E3918950D9C0040167D /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E01B3E2A18950D9C0040167D /* search.png */; };
+		E06D98071894F9AF00FA6B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06D98061894F9AF00FA6B52 /* Foundation.framework */; };
+		E06D98091894F9AF00FA6B52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06D98081894F9AF00FA6B52 /* CoreGraphics.framework */; };
+		E06D980B1894F9AF00FA6B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06D980A1894F9AF00FA6B52 /* UIKit.framework */; };
+		E06D98111894F9AF00FA6B52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06D980F1894F9AF00FA6B52 /* InfoPlist.strings */; };
+		E06D98131894F9AF00FA6B52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E06D98121894F9AF00FA6B52 /* main.m */; };
+		E06D98171894F9AF00FA6B52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06D98161894F9AF00FA6B52 /* AppDelegate.m */; };
+		E06D981A1894F9AF00FA6B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D98181894F9AF00FA6B52 /* Main.storyboard */; };
+		E06D981D1894F9AF00FA6B52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06D981C1894F9AF00FA6B52 /* ViewController.m */; };
+		E06D981F1894F9AF00FA6B52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06D981E1894F9AF00FA6B52 /* Images.xcassets */; };
+		E06D98261894F9AF00FA6B52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06D98251894F9AF00FA6B52 /* XCTest.framework */; };
+		E06D98271894F9AF00FA6B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06D98061894F9AF00FA6B52 /* Foundation.framework */; };
+		E06D98281894F9AF00FA6B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06D980A1894F9AF00FA6B52 /* UIKit.framework */; };
+		E06D98301894F9AF00FA6B52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06D982E1894F9AF00FA6B52 /* InfoPlist.strings */; };
+		E06D98321894F9AF00FA6B52 /* OrderMealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E06D98311894F9AF00FA6B52 /* OrderMealTests.m */; };
+		E06D983D1894FA1A00FA6B52 /* MenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06D983C1894FA1A00FA6B52 /* MenuListViewController.m */; };
+		E09C07D91896388900F32B66 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E09C07D81896388900F32B66 /* book.jpg */; };
+		E09C07DC18963D8800F32B66 /* ShoppingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09C07DB18963D8800F32B66 /* ShoppingCardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E06D98291894F9AF00FA6B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06D97FB1894F9AF00FA6B52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06D98021894F9AF00FA6B52;
+			remoteInfo = OrderMeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E01B3E1818950C150040167D /* ChildMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildMenuViewController.h; sourceTree = "<group>"; };
+		E01B3E1918950C150040167D /* ChildMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildMenuViewController.m; sourceTree = "<group>"; };
+		E01B3E1C18950D9C0040167D /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
+		E01B3E1D18950D9C0040167D /* back_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_d.png; sourceTree = "<group>"; };
+		E01B3E1E18950D9C0040167D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E01B3E1F18950D9C0040167D /* btn_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_center.png; sourceTree = "<group>"; };
+		E01B3E2018950D9C0040167D /* btn_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_menu.png; sourceTree = "<group>"; };
+		E01B3E2118950D9C0040167D /* btn_menus_manager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_menus_manager.png; sourceTree = "<group>"; };
+		E01B3E2218950D9C0040167D /* btn_order_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_order_d.png; sourceTree = "<group>"; };
+		E01B3E2318950D9C0040167D /* btn_order_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_order_s.png; sourceTree = "<group>"; };
+		E01B3E2418950D9C0040167D /* btn_shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_shopping.png; sourceTree = "<group>"; };
+		E01B3E2518950D9C0040167D /* button_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg.png; sourceTree = "<group>"; };
+		E01B3E2618950D9C0040167D /* default_headshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_headshot.png; sourceTree = "<group>"; };
+		E01B3E2718950D9C0040167D /* default_nopic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_nopic.png; sourceTree = "<group>"; };
+		E01B3E2818950D9C0040167D /* maintop_toolbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maintop_toolbar_bg.png; sourceTree = "<group>"; };
+		E01B3E2918950D9C0040167D /* search_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_d.png; sourceTree = "<group>"; };
+		E01B3E2A18950D9C0040167D /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		E06D98031894F9AF00FA6B52 /* OrderMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D98061894F9AF00FA6B52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E06D98081894F9AF00FA6B52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E06D980A1894F9AF00FA6B52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E06D980E1894F9AF00FA6B52 /* OrderMeal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderMeal-Info.plist"; sourceTree = "<group>"; };
+		E06D98101894F9AF00FA6B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06D98121894F9AF00FA6B52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E06D98141894F9AF00FA6B52 /* OrderMeal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrderMeal-Prefix.pch"; sourceTree = "<group>"; };
+		E06D98151894F9AF00FA6B52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E06D98161894F9AF00FA6B52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E06D98191894F9AF00FA6B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06D981B1894F9AF00FA6B52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E06D981C1894F9AF00FA6B52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E06D981E1894F9AF00FA6B52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E06D98241894F9AF00FA6B52 /* OrderMealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderMealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D98251894F9AF00FA6B52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E06D982D1894F9AF00FA6B52 /* OrderMealTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderMealTests-Info.plist"; sourceTree = "<group>"; };
+		E06D982F1894F9AF00FA6B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06D98311894F9AF00FA6B52 /* OrderMealTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderMealTests.m; sourceTree = "<group>"; };
+		E06D983B1894FA1A00FA6B52 /* MenuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuListViewController.h; sourceTree = "<group>"; };
+		E06D983C1894FA1A00FA6B52 /* MenuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuListViewController.m; sourceTree = "<group>"; };
+		E09C07D81896388900F32B66 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		E09C07DA18963D8800F32B66 /* ShoppingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCardViewController.h; sourceTree = "<group>"; };
+		E09C07DB18963D8800F32B66 /* ShoppingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06D98001894F9AF00FA6B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D98091894F9AF00FA6B52 /* CoreGraphics.framework in Frameworks */,
+				E06D980B1894F9AF00FA6B52 /* UIKit.framework in Frameworks */,
+				E06D98071894F9AF00FA6B52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D98211894F9AF00FA6B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D98261894F9AF00FA6B52 /* XCTest.framework in Frameworks */,
+				E06D98281894F9AF00FA6B52 /* UIKit.framework in Frameworks */,
+				E06D98271894F9AF00FA6B52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E01B3E131894FF9E0040167D /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserCenter;
+			sourceTree = "<group>";
+		};
+		E01B3E141894FFAD0040167D /* ShoppingCard */ = {
+			isa = PBXGroup;
+			children = (
+				E09C07DA18963D8800F32B66 /* ShoppingCardViewController.h */,
+				E09C07DB18963D8800F32B66 /* ShoppingCardViewController.m */,
+			);
+			name = ShoppingCard;
+			sourceTree = "<group>";
+		};
+		E01B3E151894FFB90040167D /* OrderManagement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OrderManagement;
+			sourceTree = "<group>";
+		};
+		E01B3E171894FFD20040167D /* MenuQuery */ = {
+			isa = PBXGroup;
+			children = (
+				E06D983B1894FA1A00FA6B52 /* MenuListViewController.h */,
+				E06D983C1894FA1A00FA6B52 /* MenuListViewController.m */,
+				E01B3E1818950C150040167D /* ChildMenuViewController.h */,
+				E01B3E1918950C150040167D /* ChildMenuViewController.m */,
+			);
+			name = MenuQuery;
+			sourceTree = "<group>";
+		};
+		E01B3E1B18950D700040167D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E09C07D81896388900F32B66 /* book.jpg */,
+				E01B3E1C18950D9C0040167D /* arrows.png */,
+				E01B3E1D18950D9C0040167D /* back_d.png */,
+				E01B3E1E18950D9C0040167D /* back.png */,
+				E01B3E1F18950D9C0040167D /* btn_center.png */,
+				E01B3E2018950D9C0040167D /* btn_menu.png */,
+				E01B3E2118950D9C0040167D /* btn_menus_manager.png */,
+				E01B3E2218950D9C0040167D /* btn_order_d.png */,
+				E01B3E2318950D9C0040167D /* btn_order_s.png */,
+				E01B3E2418950D9C0040167D /* btn_shopping.png */,
+				E01B3E2518950D9C0040167D /* button_bg.png */,
+				E01B3E2618950D9C0040167D /* default_headshot.png */,
+				E01B3E2718950D9C0040167D /* default_nopic.png */,
+				E01B3E2818950D9C0040167D /* maintop_toolbar_bg.png */,
+				E01B3E2918950D9C0040167D /* search_d.png */,
+				E01B3E2A18950D9C0040167D /* search.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		E06D97FA1894F9AF00FA6B52 = {
+			isa = PBXGroup;
+			children = (
+				E06D980C1894F9AF00FA6B52 /* OrderMeal */,
+				E06D982B1894F9AF00FA6B52 /* OrderMealTests */,
+				E06D98051894F9AF00FA6B52 /* Frameworks */,
+				E06D98041894F9AF00FA6B52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06D98041894F9AF00FA6B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06D98031894F9AF00FA6B52 /* OrderMeal.app */,
+				E06D98241894F9AF00FA6B52 /* OrderMealTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06D98051894F9AF00FA6B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E06D98061894F9AF00FA6B52 /* Foundation.framework */,
+				E06D98081894F9AF00FA6B52 /* CoreGraphics.framework */,
+				E06D980A1894F9AF00FA6B52 /* UIKit.framework */,
+				E06D98251894F9AF00FA6B52 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06D980C1894F9AF00FA6B52 /* OrderMeal */ = {
+			isa = PBXGroup;
+			children = (
+				E06D98151894F9AF00FA6B52 /* AppDelegate.h */,
+				E06D98161894F9AF00FA6B52 /* AppDelegate.m */,
+				E06D98181894F9AF00FA6B52 /* Main.storyboard */,
+				E06D981B1894F9AF00FA6B52 /* ViewController.h */,
+				E06D981C1894F9AF00FA6B52 /* ViewController.m */,
+				E01B3E171894FFD20040167D /* MenuQuery */,
+				E01B3E151894FFB90040167D /* OrderManagement */,
+				E01B3E141894FFAD0040167D /* ShoppingCard */,
+				E01B3E131894FF9E0040167D /* UserCenter */,
+				E06D981E1894F9AF00FA6B52 /* Images.xcassets */,
+				E06D980D1894F9AF00FA6B52 /* Supporting Files */,
+			);
+			path = OrderMeal;
+			sourceTree = "<group>";
+		};
+		E06D980D1894F9AF00FA6B52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E01B3E1B18950D700040167D /* Image */,
+				E06D980E1894F9AF00FA6B52 /* OrderMeal-Info.plist */,
+				E06D980F1894F9AF00FA6B52 /* InfoPlist.strings */,
+				E06D98121894F9AF00FA6B52 /* main.m */,
+				E06D98141894F9AF00FA6B52 /* OrderMeal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E06D982B1894F9AF00FA6B52 /* OrderMealTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06D98311894F9AF00FA6B52 /* OrderMealTests.m */,
+				E06D982C1894F9AF00FA6B52 /* Supporting Files */,
+			);
+			path = OrderMealTests;
+			sourceTree = "<group>";
+		};
+		E06D982C1894F9AF00FA6B52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06D982D1894F9AF00FA6B52 /* OrderMealTests-Info.plist */,
+				E06D982E1894F9AF00FA6B52 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06D98021894F9AF00FA6B52 /* OrderMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D98351894F9AF00FA6B52 /* Build configuration list for PBXNativeTarget "OrderMeal" */;
+			buildPhases = (
+				E06D97FF1894F9AF00FA6B52 /* Sources */,
+				E06D98001894F9AF00FA6B52 /* Frameworks */,
+				E06D98011894F9AF00FA6B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderMeal;
+			productName = OrderMeal;
+			productReference = E06D98031894F9AF00FA6B52 /* OrderMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E06D98231894F9AF00FA6B52 /* OrderMealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D98381894F9AF00FA6B52 /* Build configuration list for PBXNativeTarget "OrderMealTests" */;
+			buildPhases = (
+				E06D98201894F9AF00FA6B52 /* Sources */,
+				E06D98211894F9AF00FA6B52 /* Frameworks */,
+				E06D98221894F9AF00FA6B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06D982A1894F9AF00FA6B52 /* PBXTargetDependency */,
+			);
+			name = OrderMealTests;
+			productName = OrderMealTests;
+			productReference = E06D98241894F9AF00FA6B52 /* OrderMealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06D97FB1894F9AF00FA6B52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "周浩";
+				TargetAttributes = {
+					E06D98231894F9AF00FA6B52 = {
+						TestTargetID = E06D98021894F9AF00FA6B52;
+					};
+				};
+			};
+			buildConfigurationList = E06D97FE1894F9AF00FA6B52 /* Build configuration list for PBXProject "OrderMeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06D97FA1894F9AF00FA6B52;
+			productRefGroup = E06D98041894F9AF00FA6B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06D98021894F9AF00FA6B52 /* OrderMeal */,
+				E06D98231894F9AF00FA6B52 /* OrderMealTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06D98011894F9AF00FA6B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D981F1894F9AF00FA6B52 /* Images.xcassets in Resources */,
+				E01B3E3918950D9C0040167D /* search.png in Resources */,
+				E01B3E3818950D9C0040167D /* search_d.png in Resources */,
+				E01B3E3518950D9C0040167D /* default_headshot.png in Resources */,
+				E06D98111894F9AF00FA6B52 /* InfoPlist.strings in Resources */,
+				E01B3E2D18950D9C0040167D /* back.png in Resources */,
+				E01B3E3418950D9C0040167D /* button_bg.png in Resources */,
+				E09C07D91896388900F32B66 /* book.jpg in Resources */,
+				E01B3E3618950D9C0040167D /* default_nopic.png in Resources */,
+				E06D981A1894F9AF00FA6B52 /* Main.storyboard in Resources */,
+				E01B3E3118950D9C0040167D /* btn_order_d.png in Resources */,
+				E01B3E2B18950D9C0040167D /* arrows.png in Resources */,
+				E01B3E3318950D9C0040167D /* btn_shopping.png in Resources */,
+				E01B3E2E18950D9C0040167D /* btn_center.png in Resources */,
+				E01B3E3718950D9C0040167D /* maintop_toolbar_bg.png in Resources */,
+				E01B3E3018950D9C0040167D /* btn_menus_manager.png in Resources */,
+				E01B3E2C18950D9C0040167D /* back_d.png in Resources */,
+				E01B3E2F18950D9C0040167D /* btn_menu.png in Resources */,
+				E01B3E3218950D9C0040167D /* btn_order_s.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D98221894F9AF00FA6B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D98301894F9AF00FA6B52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06D97FF1894F9AF00FA6B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D981D1894F9AF00FA6B52 /* ViewController.m in Sources */,
+				E06D98171894F9AF00FA6B52 /* AppDelegate.m in Sources */,
+				E06D98131894F9AF00FA6B52 /* main.m in Sources */,
+				E01B3E1A18950C150040167D /* ChildMenuViewController.m in Sources */,
+				E09C07DC18963D8800F32B66 /* ShoppingCardViewController.m in Sources */,
+				E06D983D1894FA1A00FA6B52 /* MenuListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D98201894F9AF00FA6B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D98321894F9AF00FA6B52 /* OrderMealTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06D982A1894F9AF00FA6B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06D98021894F9AF00FA6B52 /* OrderMeal */;
+			targetProxy = E06D98291894F9AF00FA6B52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E06D980F1894F9AF00FA6B52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D98101894F9AF00FA6B52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E06D98181894F9AF00FA6B52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D98191894F9AF00FA6B52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E06D982E1894F9AF00FA6B52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D982F1894F9AF00FA6B52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06D98331894F9AF00FA6B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E06D98341894F9AF00FA6B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06D98361894F9AF00FA6B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderMeal/OrderMeal-Prefix.pch";
+				INFOPLIST_FILE = "OrderMeal/OrderMeal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E06D98371894F9AF00FA6B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderMeal/OrderMeal-Prefix.pch";
+				INFOPLIST_FILE = "OrderMeal/OrderMeal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E06D98391894F9AF00FA6B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrderMeal.app/OrderMeal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderMeal/OrderMeal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrderMealTests/OrderMealTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E06D983A1894F9AF00FA6B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrderMeal.app/OrderMeal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderMeal/OrderMeal-Prefix.pch";
+				INFOPLIST_FILE = "OrderMealTests/OrderMealTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06D97FE1894F9AF00FA6B52 /* Build configuration list for PBXProject "OrderMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98331894F9AF00FA6B52 /* Debug */,
+				E06D98341894F9AF00FA6B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D98351894F9AF00FA6B52 /* Build configuration list for PBXNativeTarget "OrderMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98361894F9AF00FA6B52 /* Debug */,
+				E06D98371894F9AF00FA6B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D98381894F9AF00FA6B52 /* Build configuration list for PBXNativeTarget "OrderMealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98391894F9AF00FA6B52 /* Debug */,
+				E06D983A1894F9AF00FA6B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E06D97FB1894F9AF00FA6B52 /* Project object */;
+}
