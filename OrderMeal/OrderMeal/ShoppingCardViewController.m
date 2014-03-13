@@ -9,6 +9,9 @@
 #import "ShoppingCardViewController.h"
 
 @interface ShoppingCardViewController ()
+{
+    NSArray *_array;
+}
 
 @end
 
@@ -27,17 +30,8 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    _array=[NSArray arrayWithObjects:@"1",@"2",@"3", nil];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table view data source
@@ -49,10 +43,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
-    return 10;
+    return _array.count;
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -63,15 +55,11 @@
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    cell.imageView.image=[UIImage imageNamed:@""];
-    cell.textLabel.text=@"<#string#>"
-    
+    cell.imageView.image=[UIImage imageNamed:@"btn_center.png"];
+    cell.textLabel.text=@"菜名：";
+    cell.detailTextLabel.text=@"原价：   优惠价：    ";
     
     return cell;
 }
-
-
-
-
 
 @end

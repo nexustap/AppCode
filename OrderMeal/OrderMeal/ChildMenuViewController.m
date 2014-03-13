@@ -34,11 +34,6 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - Table view data source
 
@@ -58,7 +53,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell==nil) {
-        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
     
     cell.textLabel.text=@"菜名";
@@ -66,7 +61,7 @@
     
     cell.imageView.image=[UIImage imageNamed:@"book.jpg"];
 
-    cell.accessoryType=UITableViewCellAccessoryDetailButton;
+    cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }

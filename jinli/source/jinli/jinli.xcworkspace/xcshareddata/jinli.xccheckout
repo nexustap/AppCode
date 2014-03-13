@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3EA7F8B0-E96C-4D0A-AEB3-9A4F48A932A0</string>
+	<string>EC5FF23D-89EB-4B58-8A92-DD484633D01C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>jinli</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</key>
-		<string>https://github.com/nexustap/AppCode</string>
+		<key>43405CCF-A1FB-4BEE-8FC0-1935D9C5FD74</key>
+		<string>https://github.com/nexustap/AppCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>jinli/source/jinli/jinli.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</key>
+		<key>43405CCF-A1FB-4BEE-8FC0-1935D9C5FD74</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/nexustap/AppCode</string>
+	<string>https://github.com/nexustap/AppCode.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</string>
+	<string>43405CCF-A1FB-4BEE-8FC0-1935D9C5FD74</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6F6B2C26-7864-4E38-9851-A4FE72EC0D66</string>
+			<string>43405CCF-A1FB-4BEE-8FC0-1935D9C5FD74</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AppCode</string>
 		</dict>
